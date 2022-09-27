@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Motel simulator!-TuanTrong", "DarkTheme")
+local Window = Library.CreateLib("Motel simulator! -TuanTrong", "DarkTheme")
 
 local Main = Window:NewTab("Main")
 local More = Window:NewTab("More")
@@ -12,7 +12,7 @@ local More = More:NewSection("More things")
 
 Cooking:NewButton("Cookies", "Auto buy Cookies and cook them", function()
     local food = 'Cookies' --Bacon, Pizzas, Pancakes, Cookies
-local CookTime = 1 --starter is like 3 seconds
+local CookTime = 0.7 --starter is like 3 seconds
 
 local ohString1 = "MotelFunds" --MotelFunds or PersonalFunds
 local ohString2 = food
@@ -39,7 +39,7 @@ end)
 
 Cooking:NewButton("Bacon", "Auto buy Bacons and cook them", function()
     local food = 'Bacon' --Bacon, Pizzas, Pancakes, Cookies
-local CookTime = 1 --starter is like 3 seconds
+local CookTime = 0.7 --starter is like 3 seconds
 
 local ohString1 = "MotelFunds" --MotelFunds or PersonalFunds
 local ohString2 = food
@@ -67,7 +67,7 @@ end)
 
 Cooking:NewButton("Pizzas", "Auto buy Pizzas and cook them", function()
     local food = 'Pizzas' --Bacon, Pizzas, Pancakes, Cookies
-local CookTime = 1 --starter is like 3 seconds
+local CookTime = 0.7 --starter is like 3 seconds
 
 local ohString1 = "MotelFunds" --MotelFunds or PersonalFunds
 local ohString2 = food
@@ -95,7 +95,7 @@ end)
 
 Cooking:NewButton("Pancakes", "Auto buy Pancakes and cook them", function()
     local food = 'Pancakes' --Bacon, Pizzas, Pancakes, Cookies
-local CookTime = 1 --starter is like 3 seconds
+local CookTime = 0.7 --starter is like 3 seconds
 
 local ohString1 = "MotelFunds" --MotelFunds or PersonalFunds
 local ohString2 = food
